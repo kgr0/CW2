@@ -8,9 +8,18 @@ namespace CW2
 {
     static class Voting
     {
+        public static Parlament parlament;
+        public static string topic;
 
         public static void Start()
         {
+            
+            Console.WriteLine("Proszę podać liczbę parlamentarzystów: ");
+            parlament = new Parlament(Convert.ToInt32(Console.ReadLine()));
+            Console.WriteLine("Proszę podać temat głosowania: ");
+            topic = Console.ReadLine();
+            parlament.Topic = topic;
+           
 
         }
     }

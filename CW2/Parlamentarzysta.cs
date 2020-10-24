@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CW2
 {
-    class Parlamentarzysta
+    public class Parlamentarzysta
     {
     }
 }
