@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CW2
 {
-    static class Voting
+    public static class Voting
     {
         public static Parlament parlament;
         public static string topic;
